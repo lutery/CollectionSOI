@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Material-io.cosmicmind.material.fonts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Material-io.cosmicmind.material.icons.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Material.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DWorld.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A19FD2898FEFCAA589B43062FCA41053</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D20569A0C7ECFD318ED953117B2B8A1C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D816470F5CF375DD939CFA8F9FBECA5F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E4FCF655136A8D3BF336B14AFC76D40D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
