@@ -39,6 +39,12 @@ class BaseStyleModule: NSObject, UICollectionViewDelegate, UICollectionViewDataS
 //        }
 //    }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print(indexPath.row);
+        //实现当点击指定cell的时候，滚动到指定的cell
+        collectionView.setContentOffset(CGPoint(x: CGFloat(indexPath.row * AnnulusLayout.sContentWidth), y: collectionView.contentOffset.y), animated: true)
+    }
+    
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
 //        print(scrollView.contentOffset.x);
 //        print(scrollView.contentOffset.y);
