@@ -48,6 +48,7 @@ class BaseStyleModule: NSObject, UICollectionViewDelegate, UICollectionViewDataS
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
 //        print(scrollView.contentOffset.x);
 //        print(scrollView.contentOffset.y);
+        
         //小于半屏 则放到最后一屏多半屏
         if (scrollView.contentOffset.x < CGFloat(0)) {
             scrollView.contentOffset = CGPoint(x: scrollView.contentOffset.x + CGFloat(6 * AnnulusLayout.sContentWidth), y: scrollView.contentOffset.y);

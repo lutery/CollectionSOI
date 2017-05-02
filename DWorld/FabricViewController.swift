@@ -44,7 +44,7 @@ extension FabricViewController{
     }
     
     fileprivate func prepareFABButton(){
-        var button = FabButton(title: "上", titleColor: .white);
+        var button = FABButton(title: "上", titleColor: .white);
         button.pulseColor = .white
         button.backgroundColor = Material.Color.blue.base
         
@@ -56,7 +56,7 @@ extension FabricViewController{
         
         button.addTarget(self, action: #selector(FabricViewController.backToPre), for: .touchUpInside)
         
-        button = FabButton(title: "下", titleColor: .white);
+        button = FABButton(title: "下", titleColor: .white);
         button.pulseColor = .white
         button.backgroundColor = Color.green.base
         

@@ -55,7 +55,7 @@ extension BaseStyleViewController{
     }
     
     fileprivate func prepareFABButton(){
-        var button = FabButton(title: "上", titleColor: .gray);
+        var button = FABButton(title: "上", titleColor: .gray);
         button.pulseColor = .white
         button.backgroundColor = Color.gray
         
@@ -65,7 +65,7 @@ extension BaseStyleViewController{
                  .bottom(10)
                  .left(10)
         
-        button = FabButton(title: "下", titleColor: .white);
+        button = FABButton(title: "下", titleColor: .white);
         button.pulseColor = .white
         button.backgroundColor = Color.green.base
         
